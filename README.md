@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+  A. A good example of closure is when a function references variables or statements within its local scope.
+
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,9 +67,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+  A. When personalDice is tied to variables. That give those variable access to the contents of the function even with them not being apart of the functions scope.
 
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  A. The statement is always the same. If there was a way to add a roll counter in to keep up with how many rolls a player has had.
+
+c. What is the lexical scope of `newRoll`? 
+  A. Items within the return function.
 
 ### Task 3 - Stretch Goals
 
