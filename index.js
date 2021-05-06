@@ -149,6 +149,7 @@ Use the scoreboard function below to do the following:
 ]  
   */
 
+// Still working on this one.
 function scoreboard(/* CODE HERE */) {
   /* CODE HERE */
 }
